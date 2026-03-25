@@ -1,12 +1,12 @@
-  /* 中文惯用语学习网页 - 样式表 */
+/* 中文惯用语学习网页 - 样式表 */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0;   保证金:0;
+  padding: 0;   填充:0;
   box-sizing: border-box;
 }
 
-:root {
+:root {   :根{
   --primary-color: #4a90e2;
   --secondary-color: #f5a623;
   --success-color: #7ed321;
@@ -49,7 +49,7 @@ header h1 {
   margin-bottom: 15px;
 }
 
-.header-content {
+.header-content {   ．标题内容{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -646,28 +646,28 @@ nav button.active {
 
   .detail-header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items   对齐项目: flex-start;   对齐项目:flex-start;
   }
 
-  .progress-stats {   ．progress-stats {
+  .progress-stats {   ．progress-stats {．进度统计{。progress-stats {
     grid-template-columns: 1fr;
   }
 
-  .learned-list {   ．learned-list {
+  .learned-list {   ．learned-list {．学习列表{。learned-list {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
-  header h1 {   Header h1 {
+  header h1 {   Header h1 {   header h1 {header h1 {
     font-size: 18px;   字体大小:18 px;
   }
 
-  .home-hero h2 {   ．Home-hero h2 {
+  .home-hero h2 {   ．Home-hero h2 {．家庭英雄h2{。Home-hero h2 {
     font-size: 20px;   字体大小:20 px;
   }
 
-  .idiom-name {   ．idiom-name {
+  .idiom-name {   ．idiom-name {   ．习语名称{。idiom-name {
     font-size: 16px;   字体大小:16 px;
   }
 
@@ -681,13 +681,13 @@ nav button.active {
 }
 
 /* 滚动条样式 */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+::-webkit-scrollbar {   :: -webkit-scrollbar——   -webkit-scrollbar&mdash —：：-webkit-scrollbar {::-webkit-scrollbar &mdash；
+  width: 8px;   宽度:8 px;
+  height: 8px;   高度:8 px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);
+  background   背景: var(   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);background   背景: var(--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -695,6 +695,6 @@ nav button.active {
   border-radius: 4px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {:: -webkit-scrollbar-thumb:{徘徊
   background: #357abd;   背景:# 357 abd;
-}
+                                                            }
