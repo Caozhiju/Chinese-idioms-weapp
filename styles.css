@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-:root {   :根{
+:root {
   --primary-color: #4a90e2;
   --secondary-color: #f5a623;
   --success-color: #7ed321;
@@ -27,7 +27,7 @@ body.dark-mode {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--bg-color);
+  background-color: var(--bg-color);background - color: var(——bg-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
   line-height: 1.6;
@@ -49,7 +49,7 @@ header h1 {
   margin-bottom: 15px;
 }
 
-.header-content {   ．标题内容{
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -621,10 +621,10 @@ nav button.active {
   }
 
   .header-content {
-    flex-direction: column;
+    flex-direction: column;   flex-direction:列;
   }
 
-  .search-bar {
+  .search-bar {   ．搜索栏{
     max-width: 100%;
   }
 
@@ -632,21 +632,21 @@ nav button.active {
     justify-content: flex-start;
   }
 
-  .home-hero {
-    padding: 40px 20px;
+  .home-hero {   ．home-hero {
+    padding: 40px 20px;   填充：40px 20px；
   }
 
-  .home-hero h2 {
-    font-size: 24px;
+  .home-hero h2 {   ．Home-hero h2 {
+    font-size: 24px;   字体大小:24 px;
   }
 
-  .exercise-options {
+  .exercise-options {   ．选择{
     grid-template-columns: 1fr;
   }
 
   .detail-header {
-    flex-direction: column;
-    align-items   对齐项目: flex-start;   对齐项目:flex-start;
+    flex-direction: column   列;
+    align-items   对齐项目: flex-start;   对齐项目:flex-start;对齐项目:flex-start;灵活启动；
   }
 
   .progress-stats {   ．progress-stats {．进度统计{。progress-stats {
@@ -659,11 +659,11 @@ nav button.active {
 }
 
 @media (max-width: 480px) {
-  header h1 {   Header h1 {   header h1 {header h1 {
+  header h1 {   Header h1 {   header h1 {header h1 {header h1 {header h1 {header h1 {header h1 {header h1 {header h1 {
     font-size: 18px;   字体大小:18 px;
   }
 
-  .home-hero h2 {   ．Home-hero h2 {．家庭英雄h2{。Home-hero h2 {
+  .home-hero h2 {   ．Home-hero h2 {．家庭英雄h2{。Home-hero h2 {．家庭英雄h2{。家英雄h2{。Home-hero h2 {
     font-size: 20px;   字体大小:20 px;
   }
 
@@ -681,17 +681,17 @@ nav button.active {
 }
 
 /* 滚动条样式 */
-::-webkit-scrollbar {   :: -webkit-scrollbar——   -webkit-scrollbar&mdash —：：-webkit-scrollbar {::-webkit-scrollbar &mdash；
+::-webkit-scrollbar {   :: -webkit-scrollbar——   -webkit-scrollbar&mdash —：：-webkit-scrollbar {::-webkit-scrollbar &mdash；：：-webkit-scrollbar {::-webkit-scrollbar —&mdash —::-webkit-scrollbar {::-webkit-scrollbar &mdash；
   width: 8px;   宽度:8 px;
   height: 8px;   高度:8 px;
 }
 
 ::-webkit-scrollbar-track {
-  background   背景: var(   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);background   背景: var(--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);
+  background   背景: var(--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);background   背景: var(--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color);背景:var(——的原色);
+  background: var(--primary-color);背景:var(——的原色);background: var(--primary-color);背景:var(——的原色);
   border-radius: 4px;
 }
 
