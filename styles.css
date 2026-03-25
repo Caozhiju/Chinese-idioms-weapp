@@ -1,4 +1,4 @@
-/* 中文惯用语学习网页 - 样式表 */
+  /* 中文惯用语学习网页 - 样式表 */
 
 * {
   margin: 0;
@@ -55,6 +55,46 @@ header h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang-toggle {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.3s;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.lang-toggle:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.lang-option {
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.lang-option.active {
+  background: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+.lang-separator {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .search-bar {
@@ -609,33 +649,33 @@ nav button.active {
     align-items: flex-start;
   }
 
-  .progress-stats {
+  .progress-stats {   ．progress-stats {
     grid-template-columns: 1fr;
   }
 
-  .learned-list {
+  .learned-list {   ．learned-list {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
-  header h1 {
-    font-size: 18px;
+  header h1 {   Header h1 {
+    font-size: 18px;   字体大小:18 px;
   }
 
-  .home-hero h2 {
-    font-size: 20px;
+  .home-hero h2 {   ．Home-hero h2 {
+    font-size: 20px;   字体大小:20 px;
   }
 
-  .idiom-name {
-    font-size: 16px;
+  .idiom-name {   ．idiom-name {
+    font-size: 16px;   字体大小:16 px;
   }
 
   .detail-header h2 {
-    font-size: 22px;
+    font-size: 22px;   字体大小:22 px;
   }
 
-  .features {
+  .features {   ．功能{
     grid-template-columns: 1fr;
   }
 }
@@ -647,14 +687,14 @@ nav button.active {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--card-bg);
+  background: var(--card-bg);背景:var(——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg   ——card-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  background: var(--primary-color);背景:var(——的原色);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #357abd;
+  background: #357abd;   背景:# 357 abd;
 }
