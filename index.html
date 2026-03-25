@@ -9,13 +9,20 @@
 <body>
     <!-- 头部 -->
     <header>
-        <h1>🎓 中文惯用语教育智能体</h1>
+        <h1 id="appTitle">🎓 中文惯用语教育智能体</h1>
         <div class="header-content">
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="搜索惯用语，如：一鸣惊人">
                 <button id="searchBtn">🔍 搜索</button>
             </div>
-            <button id="themeToggle">🌙 深色</button>
+            <div class="header-buttons">
+                <button id="themeToggle">🌙 深色</button>
+                <button id="languageToggle" class="lang-toggle">
+                    <span class="lang-option lang-zh active" onclick="setLanguageAndReload('zh')">中文</span>
+                    <span class="lang-separator">|</span>
+                    <span class="lang-option lang-en" onclick="setLanguageAndReload('en')">English</span>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -139,7 +146,7 @@
                     <li><strong>惯用语学习：</strong>9+个精选惯用语，按分类组织</li>
                     <li><strong>多水平支持：</strong>针对初级、中级、高级学习者的定制化内容</li>
                     <li><strong>文化解释：</strong>深入了解每个惯用语的历史来源和文化意义</li>
-                    <li><strong>互动练习：</strong>4种题型全面巩固学习效果</li>
+                    <li><strong>互动练习：</strong>4种题型全面巩固学习效果</li><li><strong>互动练习：</strong>4种题型全面巩固学习效果</li>
                     <li><strong>进度追踪：</strong>本地存储学习记录，随时查看进度</li>
                     <li><strong>主题切换：</strong>深色/浅色模式，灵活适应使用环境</li>
                     <li><strong>响应式设计：</strong>支持桌面、平板和手机多设备访问</li>
@@ -159,53 +166,58 @@
 
             <div class="detail-section">
                 <h3>数据存储</h3>
-                <p>
+                <p>   < p>
                     本应用使用浏览器本地存储技术（LocalStorage）保存你的学习数据。
                     你的所有学习进度和标记都保存在你的设备上，不会上传到任何服务器，完全私密安全。
-                </p>
-            </div>
+                </p>   < / p>
+            </div>   < / div>
 
-            <div class="detail-section">
+            <div class="detail-section"><div class   类="detail-section"   "detail-section">
                 <h3>技术栈</h3>
-                <p>
-                    <strong>前端技术：</strong> HTML5 + CSS3 + Vanilla JavaScript<br>
-                    <strong>存储方案：</strong> Browser LocalStorage<br>
+                <p>   < p>
+                    <strong>前端技术：</strong> HTML5 + CSS3 + Vanilla JavaScript<br><strong   强大的>前端技术：</   & lt;strong> HTML5   CSS3   Vanilla JavaScript<br>
+                    <strong>存储方案：</strong> Browser LocalStorage<br><strong   强大的>存储方案：</   & lt;strong> Browser LocalStorage<br>
                     <strong>设计理念：</strong> 轻量级、无依赖、快速加载<br>
                     <strong>响应式设计：</strong> 支持所有现代浏览器
-                </p>
-            </div>
+                </p>   < / p>
+            </div>   < / div>
 
-            <div class="detail-section">
+            <div class="detail-section"><div class   类="detail-section"   "detail-section">
                 <h3>版本信息</h3>
-                <p>
+                <p>   < p>
                     <strong>应用名称：</strong> 中文惯用语教育智能体<br>
-                    <strong>当前版本：</strong> 1.0.0<br>
-                    <strong>发布日期：</strong> 2026年3月25日<br>
-                    <strong>语言：</strong> 简体中文<br>
-                    <strong>许可证：</strong> 开源教育工具
-                </p>
-            </div>
+                    <strong>当前版本：</strong> 1.1.0<br>
+                    <strong>发布日期：</strong> 2026年3月25日<br><strong   强大的>发布日期：</   & lt;strong> 2026年3月25日<br>
+                    <strong>语言：</strong> 中文 / English<br>
+                    <strong>许可证：</strong> 开源教育工具<strong   强大的>许可证：</   & lt;strong> 开源教育工具
+                </p>   < / p>
+            </div>   < / div>
 
-            <div class="detail-section">
+            <div class="detail-section"><div class   类="detail-section"   "detail-section">
                 <h3>联系与反馈</h3>
-                <p>
+                <p>   < p>   “这是什么？”
                     如果你有任何建议或发现问题，欢迎通过以下方式联系我们：
-                </p>
-                <p>
-                    📧 Email: contact@idioms-edu.com<br>
-                    🐙 GitHub: github.com/idioms-educator<br>
-                    💬 Discord: Idioms Learning Community
-                </p>
-            </div>
+                </p>   < / p>   这是一个很好的例子。
+                <p>   < p>   “这是什么？”
+                    📧 Email: contact@idioms-edu.com<br>📧电子邮件：contact@idioms-edu.com
+                    🐙 GitHub: github.com/idioms-educator<br>🐙 GitHub: github.com/idioms-educator<br>
+                    💬 Discord: Idioms Learning Community💬Discord：习语学习社区
+                </p>   < / p>   这是一个很好的例子。
+            </div>   < / div>
 
-            <div style="text-align: center; margin-top: 40px;">
-                <p style="color: #999;">&copy; 2026 中文惯用语教育平台 | 祝你学习愉快！</p>
-            </div>
-        </div>
-    </div>
+            <div style="text-align: center; margin-top: 40px;">div style="text-align: center；margin-top: 40 px;“比;
+                <p style="color: #999;">&copy; 2026 中文惯用语教育平台 | 祝你学习愉快！</p><p style   风格="color: #999;">&copy; 2026 中文惯用语教育平台 | 祝你学习愉快！</   & lt;p>
+            </div>   < / div>   “DIVA / DIVA / DIVA”。
+        </div>   < / div>
+    </div>   < / div>
 
     <!-- 脚本 -->
-    <script src="idioms-db.js"></script>
-    <script src="app.js"></script>
-</body>
-</html>
+    <script src="translations.js"></script><script   脚本 src="translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"   "translations.js"></   & lt;script>   脚本“脚本”。
+    <script src="idioms-db.js"></script><script src="idioms-db.js"></   & lt;script>
+    <script src="idioms-translations.js"></script><script   脚本 src="idioms-translations.js"></   & lt;script>   脚本“脚本”。<script src="idioms-translations.js"></   & lt;script   脚本><script      脚本脚本 src="idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"   "idioms-translations.js"></   & lt;script>   脚本“脚本”。
+    <script src="app.js"></script><script src="app.js"></   & lt;script><script src="app.js"></script><script src="app.js"></   & lt;script><script src="app.js"></   & lt;script      脚本脚本><script    脚本src="app.js"   "app.js"   "app.js"   "app.js"   "app.js"   "app.js"   "app.js"></   & lt;script><script src="app.js"></   & lt;script      脚本脚本><script    脚本src="app.js"   "app.js"   "app.js"   "app.js"   "app.js"   "app.js"   "app.js"></   & lt;script>“脚本”。
+</body>   < / body>“身体”“身体”</body>   < //body   身体> / body>“身体”“身体”
+    </html>   < //html> <    超文本标记语言//html> < //html> <    超文本标记语言//html   超文本标记语言> < / html   超文本标记语言>   超文本标记语言
+       
+
+           
