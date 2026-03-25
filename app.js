@@ -1,4 +1,4 @@
-// 应用逻辑
+    // 应用逻辑
 
 class IdiomsApp {
   constructor() {
@@ -15,7 +15,27 @@ class IdiomsApp {
   init() {
     this.setupEventListeners();
     this.applyTheme();
+    this.updatePageTexts();
     this.showPage('home');
+  }
+
+  updatePageTexts() {
+    // 更新标题
+    document.getElementById('appTitle').textContent = t('appTitle');
+    document.getElementById('searchInput').placeholder = t('searchPlaceholder');
+    document.getElementById('searchBtn').textContent = t('search');
+    
+    // 更新导航按钮
+    document.querySelectorAll('[data-nav]').forEach(btn => {
+      const page = btn.dataset.nav;
+      btn.textContent = t(`nav.${page}`);
+    });
+    
+    // 更新语言选择器
+    const langZh = document.querySelector('.lang-zh');
+    const langEn = document.querySelector('.lang-en');
+    if (langZh) langZh.classList.toggle('active', getCurrentLanguage() === 'zh');
+    if (langEn) langEn.classList.toggle('active', getCurrentLanguage() === 'en');
   }
 
   setupEventListeners() {
@@ -91,6 +111,7 @@ class IdiomsApp {
   renderAllIdioms() {
     const container = document.getElementById('allIdiomsContainer');
     const levelFilter = document.querySelector('.level-filter.active')?.dataset.level || 'all';
+    const language = getCurrentLanguage();
     
     let filtered = idiomsDatabase;
     if (levelFilter !== 'all') {
@@ -101,8 +122,9 @@ class IdiomsApp {
 
     const categories = {};
     filtered.forEach(idiom => {
+      const translated = getTranslatedIdiom(idiom.id, language);
       if (!categories[idiom.category]) categories[idiom.category] = [];
-      categories[idiom.category].push(idiom);
+      categories[idiom.category].push(translated);
     });
 
     let html = '';
@@ -125,7 +147,8 @@ class IdiomsApp {
   }
 
   getIdiomById(id) {
-    return idiomsDatabase.find(idiom => idiom.id === id);
+    const language = getCurrentLanguage();
+    return getTranslatedIdiom(id, language);
   }
 
   showIdiomDetail(idiom) {
@@ -391,15 +414,15 @@ class IdiomsApp {
             <div class="learned-item" onclick="app.showIdiomDetail(app.getIdiomById(${id}))">
               <strong>${idiom.name}</strong>
               <span>${idiom.meaning}</span>
-            </div>
+            </div>   < / div>
           `;
         }
       });
     }
 
     html += `
-        </div>
-      </div>
+        </div>   < / div>
+      </div>   < / div>
 
       <button class="btn-secondary" onclick="app.resetProgress()">重置进度</button>
     `;
@@ -408,7 +431,7 @@ class IdiomsApp {
   }
 
   saveProgress() {
-    localStorage.setItem('learningProgress', JSON.stringify(this.learningProgress));
+    localStorage.setItem('learningProgress', JSON.stringify(this   这.learningProgress));
   }
 
   loadProgress() {
@@ -448,6 +471,11 @@ class IdiomsApp {
       document.getElementById('themeToggle').textContent = '🌙 深色';
     }
   }
+}
+
+// 全局语言切换函数
+function setLanguageAndReload(lang) {
+  setLanguage(lang);
 }
 
 // 初始化应用
